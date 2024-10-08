@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPulse - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-image: url('/images/TechPulse%20backbrund%20image.png'); /* Corrected background image path */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(0, 123, 255, 0.9); /* Semi-transparent background */
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7));
+            color: white;
+            padding: 150px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        #hero h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        #hero p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #ff5e57;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #ff3e36;
+        }
+
+        /* Home Introduction */
+        #home-intro {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: rgba(249, 249, 249, 0.9); /* Semi-transparent background */
+        }
+
+        #home-intro h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            color: #007bff;
+        }
+
+        #home-intro p {
+            font-size: 18px;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Why Choose Us Section */
+        #why-choose-us {
+            padding: 60px 20px;
+            background-color: rgba(249, 249, 249, 0.9); /* Semi-transparent background */
+        }
+
+        #why-choose-us h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            font-weight: 700;
+            color: #007bff;
+            text-align: center;
+        }
+
+        #why-choose-us ul {
+            list-style: none;
+            padding: 0;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #why-choose-us li {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        /* Testimonials Section */
+        #testimonials {
+            padding: 60px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #testimonials h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            font-weight: 700;
+            color: #007bff;
+        }
+
+        #testimonials blockquote {
+            font-size: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            font-style: italic;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>TechPulse</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Pulsing with Innovation</h2>
+        <p>Your Trusted IT Partner</p>
+        <a href="services.html" class="cta-button">Explore Services</a>
+        <a href="blog.html" class="cta-button">Visit Blog</a> <!-- Added button for Blog page -->
+    </section>
+
+    <section id="home-intro">
+        <h2>Welcome to TechPulse</h2>
+        <p>Your source for the latest in technology and innovation. At TechPulse, we empower businesses by delivering cutting-edge IT solutions and software development services designed to accelerate innovation and growth.</p>
+    </section>
+
+    <section id="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li><strong>Proven Expertise:</strong> Over a decade of delivering successful IT solutions.</li>
+            <li><strong>Innovative Solutions:</strong> Cutting-edge technologies to drive digital transformation.</li>
+            <li><strong>Customer-Centric Approach:</strong> Tailored solutions that meet your unique needs.</li>
+            <li><strong>Expert Team:</strong> A team of professionals dedicated to your success.</li>
+            <li><strong>24/7 Support:</strong> Round-the-clock assistance to ensure your operations run smoothly.</li>
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+            "TechPulse transformed our business with their innovative solutions. Their expertise and support have been invaluable!"
+        </blockquote>
+        <blockquote>
+            "We highly recommend TechPulse for their exceptional services and dedication to client satisfaction."
+        </blockquote>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechPulse. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

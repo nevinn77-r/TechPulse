@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPulse - Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('/images/TechPulse\ backbrund\ image.png'); /* Replace with your image path */
+            background-size: cover; /* Ensures the image covers the whole background */
+            background-position: center; /* Centers the background image */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(0, 123, 255, 0.9); /* Blue color for header */
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 40px;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00bfff; /* Lighter blue for hover effect */
+        }
+
+        /* Services Section */
+        #services {
+            padding: 80px 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for service section */
+            text-align: center;
+            border-radius: 10px; /* Rounded corners */
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #services h2 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #007bff; /* Blue color for title */
+            margin-bottom: 50px;
+            position: relative;
+            display: inline-block;
+        }
+
+        #services h2::after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background-color: #007bff; /* Blue underline */
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            margin: 0 auto;
+        }
+
+        .service {
+            background-color: #f8f8f8; /* Light grey background for service cards */
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+        }
+
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .service h3 {
+            font-size: 28px;
+            color: #007bff; /* Blue color for service titles */
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        .service h3::after {
+            content: '';
+            width: 40px;
+            height: 4px;
+            background-color: #007bff; /* Blue underline for service titles */
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+        }
+
+        .service p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .service ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .service li {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+
+        .service li strong {
+            font-weight: 600;
+            color: #007bff; /* Blue for strong text */
+            margin-right: 8px;
+        }
+
+        .service li::before {
+            content: '\2713';
+            font-size: 18px;
+            color: #007bff; /* Blue checkmark */
+            margin-right: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #141414; /* Dark footer */
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TechPulse</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <!-- IT Solutions -->
+            <div class="service">
+                <h3>IT Solutions</h3>
+                <p>Our IT solutions empower businesses by integrating modern technologies that enhance productivity, security, and efficiency. We ensure your IT infrastructure is robust and capable of supporting your operations.</p>
+                <p>From network design to cybersecurity, our services are tailored to meet the unique challenges of your business.</p>
+                <ul>
+                    <li><strong>Network Infrastructure:</strong> Design, implement, and maintain robust network systems that ensure seamless communication and data transfer.</li>
+                    <li><strong>Cloud Solutions:</strong> Migrate to the cloud for enhanced flexibility, scalability, and data security, whether it's private, public, or hybrid solutions.</li>
+                    <li><strong>Cybersecurity:</strong> Comprehensive security solutions to protect your business from cyber threats.</li>
+                    <li><strong>IT Support & Maintenance:</strong> 24/7 managed IT support to ensure your systems remain operational.</li>
+                    <li><strong>Disaster Recovery:</strong> Implement backup and recovery strategies to ensure business continuity.</li>
+                </ul>
+            </div>
+
+            <!-- Software Development -->
+            <div class="service">
+                <h3>Software Development</h3>
+                <p>We specialize in custom software development that aligns with your business processes, ensuring the solutions we create meet your unique requirements. Our development lifecycle covers everything from initial concept to deployment.</p>
+                <p>Using Agile methodologies, we focus on delivering projects efficiently and effectively.</p>
+                <ul>
+                    <li><strong>Custom Software Development:</strong> Develop tailored software solutions that align with your business processes.</li>
+                    <li><strong>Web & Mobile App Development:</strong> Create responsive, user-friendly websites and mobile applications.</li>
+                    <li><strong>API Development & Integration:</strong> Seamless integration with third-party services.</li>
+                    <li><strong>Agile Development:</strong> Our Agile approach ensures fast turnaround times.</li>
+                    <li><strong>DevOps & Continuous Integration:</strong> Automate software deployment and monitoring.</li>
+                </ul>
+            </div>
+
+            <!-- Consulting -->
+            <div class="service">
+                <h3>Consulting</h3>
+                <p>Our consulting services provide expert guidance to help your business navigate the digital landscape. We work collaboratively to align your IT strategy with your overall business goals.</p>
+                <p>Our experienced consultants will analyze your current processes and identify opportunities for innovation and efficiency.</p>
+                <ul>
+                    <li><strong>IT Strategy Consulting:</strong> Align your IT strategies with your business goals.</li>
+                    <li><strong>Digital Transformation:</strong> Guidance on transforming traditional business models.</li>
+                    <li><strong>Process Automation:</strong> Streamline business processes through automation.</li>
+                    <li><strong>Technology Roadmaps:</strong> Build a comprehensive technology roadmap.</li>
+                    <li><strong>Change Management:</strong> Ensure successful implementation of new technologies.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechPulse. All rights reserved.</p>
+    </footer>
+</body>
+</html>

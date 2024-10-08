@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Tech Innovations in 2024",
+        "description": "Discover the groundbreaking technologies shaping the future of IT and software development.",
+        "link": "news/tech-innovations-2024.html"
+    },
+    {
+        "title": "Software Development Trends",
+        "description": "Learn about the latest trends and best practices in software development and agile methodologies.",
+        "link": "news/software-development-trends.html"
+    },
+    {
+        "title": "Industry Insights",
+        "description": "Get insights into the emerging technologies that will transform businesses in the coming years.",
+        "link": "news/industry-insights.html"
+    },
+    {
+        "title": "Cybersecurity Measures for 2024",
+        "description": "Explore the essential cybersecurity strategies every business should implement.",
+        "link": "news/cybersecurity-measures-2024.html"
+    },
+    {
+        "title": "AI in Business",
+        "description": "Understand how AI is revolutionizing the business landscape and driving efficiency.",
+        "link": "news/ai-in-business.html"
+    }
+]
